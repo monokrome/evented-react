@@ -39,7 +39,7 @@ const eventMap = {
 
 ## TODO:
 
-  [ ]: Actual documentation
-  [ ]: Build it somehow
-  [ ]: Create practical example
-  [x]: Eat ice cream
+[ ]: Actual documentation
+[ ]: Build it somehow
+[ ]: Create practical example
+[x]: Eat ice cream
