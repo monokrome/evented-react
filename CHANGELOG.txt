@@ -1,0 +1,8 @@
+## v0.0.2
+
+- Modified file structure to be "correct"
+
+## v0.0.1
+
+- Made a prototyped that nobody should ever use because I didn't test it.
+- Made a stunningly unamazing README

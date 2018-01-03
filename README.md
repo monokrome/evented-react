@@ -7,7 +7,7 @@ To handle code with side-effects outside of your components, yo!
 You can emit events from components like this!
 
 ```javascript
-import EventSource from 'evented-react'
+import { EventSource } from 'evented-react'
 
 @EventSource('authentication:authenticate')
 export default class TheThing extends Component {
@@ -24,7 +24,7 @@ export default class TheThing extends Component {
 ...but only if you wrapped it in something like this:
 
 ```javascript
-import EventProvider from 'evented-react'
+import { EventProvider } from 'evented-react'
 import TheThing from './your-components/TheThing'
 
 // You should probably put this somewhere more organized! <3
