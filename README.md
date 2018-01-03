@@ -19,6 +19,7 @@ export default class TheThing extends Component {
     )
   }
 }
+
 ```
 
 ...but only if you wrapped it in something like this:
@@ -32,9 +33,12 @@ const eventMap = {
   'authentication:authenticate': console.log,
 }
 
-<EventProvider eventMap={eventMap}>
-  <TheThing />
-</EventProvider>
+ReactDOM.render((
+  <EventProvider eventMap={eventMap}>
+    <TheThing />
+  </EventProvider>
+), document.body.children[0])
+
 ```
 
 ## TODO:
