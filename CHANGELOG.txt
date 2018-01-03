@@ -1,3 +1,7 @@
+## v0.0.3
+
+- Add one of those fancy license things
+
 ## v0.0.2
 
 - Modified file structure to be "correct"
