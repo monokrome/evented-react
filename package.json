@@ -1,0 +1,16 @@
+{
+  "name": "evented-react",
+  "version": "0.0.1",
+  "description": "To handle code with side-effects outside of your components, yo!",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "github.com:monokrome/evented-react"
+  },
+  "author": "Bailey Stoner",
+  "license": "MIT",
+  "dependencies": {
+    "react": "*",
+    "yaemit": "*"
+  }
+}
