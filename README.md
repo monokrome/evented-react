@@ -22,7 +22,7 @@ export default class TheThing extends Component {
 
 ```
 
-...but only if you wrapped it in something like this:
+...but only if your root component (or any parent, really) provides `EventProvider`:
 
 ```javascript
 import { EventProvider } from 'evented-react'
@@ -43,7 +43,7 @@ ReactDOM.render((
 
 ## TODO:
 
-[ ]: Actual documentation
-[ ]: Build it somehow
-[ ]: Create practical example
-[x]: Eat ice cream
+- [ ] Actual documentation
+- [ ] Build it somehow
+- [ ] Create practical example
+- [x] Eat ice cream
