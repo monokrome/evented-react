@@ -1,5 +1,7 @@
 ## evented-react
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/monokrome/evented-react.svg)](https://greenkeeper.io/)
+
 To handle code with side-effects outside of your components, yo!
 
 ## Example:
